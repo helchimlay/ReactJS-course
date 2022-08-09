@@ -1,18 +1,3 @@
 body {
   text-align: center;
-  overflow: hidden;
-}
-
-input[type="text"],
-button {
-  padding: 10px 30px;
-  border: 2px solid black;
-  font-size: 30px;
-  outline: none;
-}
-
-.title {
-  font-family: Arial;
-  padding: 30px;
-  font-size: 50px;
 }
