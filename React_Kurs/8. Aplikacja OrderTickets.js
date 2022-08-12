@@ -19,14 +19,6 @@ const FormComponent = (props) => {
   )
 }
 
-// const PositiveMessage = () => {
-//   return <p>Możesz obejrzeć film.</p>
-// }
-
-// const NegativeMessage = () => {
-//   return <p>Nie możesz obejrzeć filmu!</p>
-// }
-
 const displayMessage = (isChecked, isFormSubmited) => {
   if (isFormSubmited) {
     if (isChecked) {
