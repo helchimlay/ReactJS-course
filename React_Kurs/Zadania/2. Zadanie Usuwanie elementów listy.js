@@ -28,17 +28,14 @@ class List extends React.Component {
   }
 
   render() {
-    return (
-      <ul>
-        {this.state.persons.map((person) => (
-          <Person
-            key={person.id}
-            name={person.name}
-            handleRemove={(e) => this.handleRemove(e, person.id)}
-          />
-        ))}
-      </ul>
-    )
+    const renderPeople = this.state.persons.map((person) => (
+      <Person
+        key={person.id}
+        name={person.name}
+        handleRemove={() => this.handleRemove(person.id)}
+      />
+    ))
+    return <ul>{renderPeople}</ul>
   }
 }
 
