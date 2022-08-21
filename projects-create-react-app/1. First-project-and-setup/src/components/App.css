@@ -1,0 +1,13 @@
+p {
+  border: 1px solid burlywood;
+  background-color: rgb(253, 228, 187);
+  width: fit-content;
+  margin: 15px auto;
+  font-size: 36px;
+}
+button {
+  border-color: burlywood;
+  background-color: rgb(253, 228, 187);
+  width: 75px;
+  height: 30px;
+}
