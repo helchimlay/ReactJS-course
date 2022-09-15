@@ -1,0 +1,20 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  background-color: rgb(255, 232, 190);
+}
+button,
+span {
+  font-size: 4.8rem;
+}
+button {
+  min-width: 75px;
+  min-height: 75px;
+  margin: 0px 10px;
+  background-color: brown;
+  color: white;
+}
+.app {
+  font-size: 1.6rem;
+}
