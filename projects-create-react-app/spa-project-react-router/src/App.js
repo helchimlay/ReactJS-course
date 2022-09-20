@@ -30,7 +30,7 @@ const App = () => {
       <section>
         <h1>STRONA</h1>
         <Routes>
-          <Route path="/" end element={<Home />} errorElement={<ErrorPage />} />
+          <Route path="/" end element={<Home />} />
           <Route path="/news" element={<News />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<ErrorPage />} />
