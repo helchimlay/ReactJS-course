@@ -35,6 +35,8 @@ const App = () => {
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<ErrorPage />} />
         </Routes>
+
+        {/* Sprawdzić czy jak usune tu wyzej path to czy zadziała error page */}
       </section>
     </div>
   )
